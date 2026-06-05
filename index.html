@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keren Cambronero | Full-Stack Developer</title>
+    <!-- colors theme -->
+    <style>
+      :root {
+        --primary: #b67514;
+        --base: #2a2e35;
+        --secondary: #ffa51f;
+        --gmailcolor: #ea4335;
+        --linkedincolor: #ffffff;
+        --whatsappcolor: #25d366;
+        --white: #f5f5f5;
+        --graydate: #999999;
+      }
+    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <canvas id="network-bg"></canvas>
+        <img
+          src="assets/images/banner.png"
+          alt="Keren Cambronero Logo"
+          class="header-img"
+        />
+        <!-- Keren Cambronero -->
+        <div class="header-text">
+          <h1>
+            <span class="tag-opening"><</span>
+            <span class="name">Keren Cambronero</span>
+          </h1>
+          <p class="code-banner">
+            <span class="php-tag">&lt;?php</span>
+            <span class="php-echo">echo</span>
+            <span class="php-string">"<span id="typing-text"></span>"</span>
+            <span class="php-tag">?&gt;</span>
+            <span class="cursor">|</span>
+          </p>
+        </div>
+        <!-- Contact me -->
+        <div class="header-cta">
+          <p class="availability">Disponible para proyectos</p>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=%20kerencambronero472@gmail.com"
+            class="contact-btn"
+            target="_blank"
+          >
+            Contáctame
+          </a>
+        </div>
+      </div>
+      <!-- menu toggle media max-->
+      <div class="menu-toggle-container">
+        <button class="menu-toggle">☰</button>
+      </div>
+      <nav class="header-menu">
+        <div class="menu-main-menu-container">
+          <ul id="menu-main-menu" class="menu">
+            <li
+              id="menu-item-32"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
+            >
+              <a href="#home">Acerca de</a>
+            </li>
+            <li
+              id="menu-item-33"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"
+            >
+              <a href="#experience">Experiencia</a>
+            </li>
+            <li
+              id="menu-item-91"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"
+            >
+              <a href="#education">Educación</a>
+            </li>
+            <li
+              id="menu-item-92"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"
+            >
+              <a href="#services">Servicios</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="cv-layout">
+      <div id="skills" class="skills-section">
+        <div class="skills-content">
+          <h2 class="section-title skills-section-title">Habilidades</h2>
+
+          <!-- Tabs -->
+          <div class="skills-tabs">
+            <button class="tab active" data-tab="tech">
+              Habilidades Técnicas
+            </button>
+
+            <button class="tab" data-tab="soft">Habilidades Blandas</button>
+          </div>
+
+          <div
+            class="skills-slider aos-init aos-animate"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="200"
+            data-aos-duration="800"
+          >
+            <!-- techniques -->
+            <div class="skills-track active" id="tech">
+              <div class="skill-card">
+                <p>
+                  Lenguajes de programación: JavaScript • Java • C# • Python •
+                  PHP • PL/SQL
+                </p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Bases de datos: MySQL • SQL Server • Oracle • PostgreSQL</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Tecnologías web: HTML5 • CSS3 • RESTful APIs</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>
+                  Frameworks: Bootstrap • Codeigniter • Spring Boot • Flask •
+                  ASP.NET • WinForms
+                </p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>
+                  Desarrollo de Software: POO • N-tier • Desarrollo Backend •
+                  Desarrollo Frontend • Microservicios • Principios SOLID
+                </p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Metodologías: Scrum</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Cloud y DevOps: AWS • Azure • Azure DevOps</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Formatos de datos y archivos: JSON • YAML • XML • MT940</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>CMS y E-commerce: WordPress • WooCommerce</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>CI/CD y control de versiones: GitHub • Pipelines • CI/CD</p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>
+                  Otras herramientas: jQuery • AJAX •Thymeleaf • Docker • Redis
+                  • SonarQube • Maven • Gradle • Terraform • GoAnywhere • Jira •
+                  JWT
+                </p>
+                <div class="dots" data-level="4">
+                </div>
+              </div>
+            </div>
+
+            <!-- soft -->
+            <div class="skills-track" id="soft">
+              <div class="skill-card">
+                <p>Comunicación</p>
+                <div class="dots" data-level="5">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Trabajo en equipo</p>
+                <div class="dots" data-level="5">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Autodidacta</p>
+                <div class="dots" data-level="5">
+                </div>
+              </div>
+              <div class="skill-card">
+                <p>Versátil</p>
+                <div class="dots" data-level="5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <section id="home">
+          <!-- About -->
+        </section>
+
+        <!-- Experience -->
+        <section id="experience">
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            
+        </section>
+      </main>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo-container">
+            <img
+              src="assets/images/logo.png"
+              alt="Keren Cambronero Logo"
+              class="footer-logo"
+            />
+        </div>
+        <!-- Links -->
+        <div class="footer-social-links">
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=%20kerencambronero472@gmail.com"
+            target="_blank"
+            class="social-icon gmail"
+            aria-label="Email"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/keren-cambronero"
+            target="_blank"
+            class="social-icon linkedin"
+            aria-label="Linkedin"
+          ></a>
+          <a
+            href="https://wa.me/50686423088"
+            target="_blank"
+            class="social-icon whatsapp"
+            style="--icon: url(/assets/images/whatsapp.svg)"
+            aria-label="Whatsapp"
+          >
+          </a>
+        </div>
+      </div>
+      <p class="footer-copyright">© 2026 - Keren Cambronero | Costa Rica</p>
+    </footer>
+    <!-- JS -->
+    <script src="js/Script.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    
+  </body>
+</html>
