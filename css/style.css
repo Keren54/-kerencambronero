@@ -829,6 +829,8 @@ about*/
         width: 60%;
         max-width: 220px;
         margin: 10px auto;
+        opacity: 0.7;
+
     }
 
     .contact-btn {
